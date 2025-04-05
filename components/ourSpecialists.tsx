@@ -63,11 +63,11 @@ const OurSpecialists = () => {
               <CarouselItem className="lg:basis-1/3 md:basis-1/3" key={index}>
                 <div className="p-4 flex flex-col gap-3">
                   <Image
-                    width={100}
-                    height={100}
+                    width={1000}
+                    height={1000}
                     src={item.image}
                     alt={item.name}
-                    className="w-full h-auto rounded-lg"
+                    className="rounded-lg"
                   />
                   <h3 className="text-xl font-bold">{item.name}</h3>
                   <p className="text-primary font-medium">{item.specialty}</p>
