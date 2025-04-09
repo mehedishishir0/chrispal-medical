@@ -118,7 +118,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t text-center text-muted-foreground">
-          <p>© 2025 HealthCare. All rights reserved.</p>
+          <p>© 2025 chrispal medical. All rights reserved.</p>
         </div>
       </div>
     </footer>
