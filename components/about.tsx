@@ -1,6 +1,5 @@
 import { Heart, Star } from "lucide-react";
 import Image from "next/image";
-import React from "react";
 
 const About = () => {
   return (
@@ -20,7 +19,7 @@ const About = () => {
             <h2 className="text-3xl font-bold tracking-tighter mb-6 text-center sm:text-4xl md:text-5xl">
               About Our Clinic
             </h2>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground text-justify">
               Healthcare is a vital and emotive issue—its importance pervades
               all aspects of societies. The long-term goal of the proposed
               medical centre- CHRISPAL MEDICAL is to provide patients with the
@@ -51,7 +50,7 @@ const About = () => {
               currently limited by economic, geographic, and/or cultural
               barriers.
             </p>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground text-justify">
               Due to the near-universal desire for safe and good-quality
               healthcare, there is a growing interest in international
               healthcare accreditation. Providing healthcare, especially of the
@@ -82,18 +81,19 @@ const About = () => {
               community. They must have the ability to provide care to patients
               with diverse values, beliefs and behaviours, including the
               tailoring of health care delivery to meet patients&#39; social,
-              cultural and intellectual needs. <br />{" "}
+              cultural and intellectual needs. <br /> <br />{" "}
               <span className="text-2xl font-bold text-black ">The Market</span>{" "}
-              <br /> The type of service that CHRISPAL MEDICAL will be providing
-              is almost non-existent from the private sector in the Christiana
-              region. There are government health centres that provide similar
-              services that CHRISPAL MEDICAL will be providing but not as
-              comprehensive. The anecdotal reports of prolonged delays, lack of
-              personal attention, diminishing quality of service, lack of
-              specialty care provided by the public health centres leave the
-              market wide open for comprehensive private medical care.
+              <br /> <br /> The type of service that CHRISPAL MEDICAL will be
+              providing is almost non-existent from the private sector in the
+              Christiana region. There are government health centres that
+              provide similar services that CHRISPAL MEDICAL will be providing
+              but not as comprehensive. The anecdotal reports of prolonged
+              delays, lack of personal attention, diminishing quality of
+              service, lack of specialty care provided by the public health
+              centres leave the market wide open for comprehensive private
+              medical care.
             </p>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground text-justify">
               CHRISPAL MEDICAL will employ many strategies to differentiate
               themselves from the existing markets. Bench marking patient
               service is the way CHRISPAL MEDICAL will corner the market of the
@@ -143,7 +143,7 @@ const About = () => {
               OD) is a well-known respected member of the Christiana, Spalding
               and neighbouring communities.
             </p>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground text-justify">
               <br />
               <span className="text-xl font-semibold text-black">
                 Dr. Karyna Davis-Irons

@@ -60,8 +60,19 @@ const Ourservices = () => {
         </div>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {data.map((service, index) => (
-            <Card key={index} className="overflow-hidden">
-              <CardContent className="p-6 flex flex-col gap-2">
+            <Card
+              key={index}
+              className="relative overflow-hidden transition-transform duration-300 hover:scale-105 group"
+            >
+              <div className="pointer-events-none absolute inset-0 z-0 
+    before:content-[''] before:absolute before:top-1/2 before:left-1/2 
+    before:-translate-x-1/2 before:-translate-y-1/2 before:w-0 before:h-0 
+    before:rounded-full 
+    before:bg-[radial-gradient(rgba(59,130,246,0.3)_0%,transparent_70%)] 
+    before:transition-all before:duration-500 
+    group-hover:before:w-[200%] group-hover:before:h-[200%]"></div>
+
+              <CardContent className="relative z-10 p-6 flex flex-col gap-2 cursor-pointer">
                 <div className="mb-4 flex items-center justify-center">
                   {service.icon}
                 </div>
@@ -73,10 +84,10 @@ const Ourservices = () => {
                 </p>
                 <Button
                   variant="link"
-                  className="mt-4 p-0 h-auto justify-center flex "
+                  className="mt-4 p-0 h-auto justify-center flex"
                   asChild
                 >
-                  <Link href="#" className="flex items-center ">
+                  <Link href="#" className="flex items-center">
                     Learn more <ChevronRight className="ml-1 h-4 w-4" />
                   </Link>
                 </Button>
